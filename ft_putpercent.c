@@ -6,7 +6,7 @@
 /*   By: adzmusta <adzmusta@student.42iskandarpute  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/21 22:46:44 by adzmusta          #+#    #+#             */
-/*   Updated: 2026/01/21 22:47:16 by adzmusta         ###   ########.fr       */
+/*   Updated: 2026/01/21 22:47:55 by adzmusta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,3 +15,5 @@
 int	ft_putpercent(void)
 {
 	write (1, "%", 1);
+	return (1);
+}
