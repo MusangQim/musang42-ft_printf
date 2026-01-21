@@ -6,7 +6,7 @@
 /*   By: adzmusta <adzmusta@student.42iskandarpute  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/21 22:42:57 by adzmusta          #+#    #+#             */
-/*   Updated: 2026/01/21 22:43:29 by adzmusta         ###   ########.fr       */
+/*   Updated: 2026/01/21 22:44:43 by adzmusta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,4 +14,12 @@
 
 int	ft_puthex(unsigned int n, char format)
 {
+	int		len;
+	char	*base;
+
+	len = 0;
+	if (format == 'x')
+		base = "0123456789abcdef";
+	else
+		base = "0123456789ABCDEF";
 }
